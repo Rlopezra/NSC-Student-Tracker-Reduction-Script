@@ -1,6 +1,6 @@
 # NSC Student Tracker Reduction Script
 
-I created a Python script to restructure the file to make the Student Tracker File manageable. It condenses  students  enrollment records so that there's only one enrollment record for each institution a student attended.
+I created a Python script to restructure the Student Tracker File  and make it more manageable in excel. It condenses  students  enrollment records so that there's only one enrollment record for each institution a student attended.
 
 For example, instead of having a record for each semester I attended Evergreen Valley College:
 
@@ -19,7 +19,7 @@ The script will create a record that has the term start date of the first term a
 |----------|---------|----------|-----------------|---------------|-------------|----------------|----------|-----|---------------|
 |Ronald    | Lopez   | 0000001  | Evergreen Valley| 8/12/2015     | 12/3/2015   | 1              |    Y     |111.1| 6/8/2017      |
 
-Instead of having a file that has 3 million records, I only have to deal with 40,000 - 60,000 records.
+The benefit is that instead of having a file that has 3 million records, I only have to deal with 40,000 - 60,000 records.
 
 The only modification necessary to run this script is to change the input and output file directory.
 If the student unique identifier is in the 'Your Unique Identifier' column, then change all instances of 'Requester Return Field' to 'Your Unique Identifier'.
