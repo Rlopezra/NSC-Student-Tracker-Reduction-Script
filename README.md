@@ -4,14 +4,14 @@ I created a Python script to restructure the file to make the Student Tracker Fi
 
 For example, instead of having a record for each semester I attended Evergreen Valley College:
 
-|First Name|Last Name|Student ID|College Name|Term Start Date|Term End Date|College Sequence|Graduated?| CIP|Graduation Date|
------------------------------------------------------------------------------------------------------------------------------
-|Ronald    | Lopez   | 0000001 | Evergreen Valley| 8/12/2015 | 12/3/2015 | 1                |          |     |              |
-|Ronald    | Lopez   | 0000001 | Evergreen Valley| 1/4/2016  | 5/15/2016 | 1                |          |     |              |
-|Ronald    | Lopez   | 0000001 | Evergreen Valley| 1/4/2016  | 5/15/2016 | 1                |          |     |              |
-|Ronald    | Lopez   | 0000001 | Evergreen Valley| 8/12/2016 | 12/3/2016 | 1                |          |     |              |
-|Ronald    | Lopez   | 0000001 | Evergreen Valley| 1/4/2017  | 5/15/2017 | 1                |          |     |              |
-|Ronald    | Lopez   | 0000001 | Evergreen Valley|           |           |                  |     Y    |111.1| 6/8/2017     |
+|First Name|Last Name|Student ID|     College Name|Term Start Date|Term End Date|College Sequence|Graduated?| CIP |Graduation Date|
+|----------|---------|----------|-----------------|---------------|-------------|----------------|----------|-----|---------------|
+|Ronald    | Lopez   | 0000001  | Evergreen Valley| 8/12/2015     | 12/3/2015   | 1              |          |     |               |
+|Ronald    | Lopez   | 0000001  | Evergreen Valley| 1/4/2016      | 5/15/2016   | 1              |          |     |               |
+|Ronald    | Lopez   | 0000001  | Evergreen Valley| 1/4/2016      | 5/15/2016   | 1              |          |     |               |
+|Ronald    | Lopez   | 0000001  | Evergreen Valley| 8/12/2016     | 12/3/2016   | 1              |          |     |               |
+|Ronald    | Lopez   | 0000001  | Evergreen Valley| 1/4/2017      | 5/15/2017   | 1              |          |     |               |
+|Ronald    | Lopez   | 0000001 |  Evergreen Valley|               |             |                |     Y    |111.1| 6/8/2017      |
 
 The script will create a record that has the term start date of the first term and end date of the last term enrolled at EVC.
 
