@@ -15,10 +15,9 @@ For example, instead of having a record for each semester I attended Evergreen V
 
 The script will create a record that has the term start date of the first term and end date of the last term enrolled at EVC.
 
-|First Name|Last Name|Student ID|College Name|Term Start Date|Term End Date|College Sequence|Graduated?| CIP|Graduation Date|
------------------------------------------------------------------------------------------------------------------------------
-|Ronald    | Lopez   | 0000001 | Evergreen Valley| 8/12/2015 | 5/15/2017 | 1                |     Y    |111.1| 6/8/2017     |
-
+|First Name|Last Name|Student ID|     College Name|Term Start Date|Term End Date|College Sequence|Graduated?| CIP |Graduation Date|
+|----------|---------|----------|-----------------|---------------|-------------|----------------|----------|-----|---------------|
+|Ronald    | Lopez   | 0000001  | Evergreen Valley| 8/12/2015     | 12/3/2015   | 1              |    Y     |111.1| 6/8/2017      |
 
 Instead of having a file that has 3 million records, I only have to deal with 40,000 - 60,000 records.
 
