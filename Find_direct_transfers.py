@@ -1,3 +1,4 @@
+#This code uses the result of the NSC Student Tracker Reduction Script
 
 #Filtering for students who'se first college is Evergreen Valley
 evc_cohort = final_df.loc[(final_df['College Code/Branch'] =='012452-00') & (final_df['College Sequence'] ==1)]
